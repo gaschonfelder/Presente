@@ -49,6 +49,7 @@ body {
     margin-top: 5px;
     color: #555;
   }
+
   
   button {
     display: block;
@@ -64,6 +65,11 @@ body {
     pointer-events: none;
     transition: opacity 1.5s ease;
   }
+
+  button:hover {
+    background-color: #e70734; /* tom mais forte no hover */
+    transform: scale(1.05); /* efeito de leve aumento */
+  }
   
   #startBtn.visible {
     opacity: 1;
@@ -78,7 +84,7 @@ body {
   }
   
   .scroll-section {
-    height: 100vh;
+    height: 70vh;
     position: relative;
   }
   
@@ -117,7 +123,7 @@ body {
   
   .polaroidText{
     position: fixed;
-    top: 20%;
+    top: 15%;
     left: 55%;
     width: 550px;
   }
@@ -127,13 +133,23 @@ body {
     transform: translateY(20px);
     transition: opacity 0.8s ease, transform 0.8s ease;
     margin: 10px 0;
-    font-size: 1.75rem;
   }
   
   .polaroidText p.visible {
     opacity: 1;
     transform: translateY(0);
   }
+
+  .text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+
+  .text.bold {
+    font-weight: 700}
   
   .textoFinal {
     position: fixed; /* Necessário para centralizar com transform */
@@ -146,21 +162,27 @@ body {
   
     width: 100vw;
     height: 100vh;
-  
-    color: red;
-    background-color: green;
-  
+    
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
   
     transition: opacity 0.8s ease, transform 0.8s ease;
     z-index: 999; /* Garante que fique acima dos outros elementos */
+    font-size: 5rem;
+    justify-content: center;     /* centraliza horizontalmente */
+    align-items: center;         /* centraliza verticalmente */
+    background: linear-gradient(135deg, #ff5e7e, #ff9aa2); /* fundo com degradê rosa */
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
   
   .textoFinal.visible {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1) rotate(var(--rotation, 0deg));
   }
+
   
   .heart {
     position: absolute;
@@ -168,6 +190,10 @@ body {
     font-size: 1.5rem;
     pointer-events: none;
     animation: flyUp 1s ease-out forwards;
+  }
+
+  .scroll-section:last-of-type {
+    height: 20vh; /* diminua de 100vh para um valor menor */
   }
   
   @keyframes flyUp {
