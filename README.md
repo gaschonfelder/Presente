@@ -20,7 +20,10 @@ O projeto é totalmente personalizável: você pode trocar as imagens, textos, c
 ### 💻 Desktop
 <img width="1901" height="941" alt="Captura de tela 2025-08-11 233844" src="https://github.com/user-attachments/assets/d72e193e-d37e-4a73-8c73-3272b34d33a4" />
 
-![Gravando 2025-08-11 234717](https://github.com/user-attachments/assets/482d6f0e-0054-4d9c-911b-ecda24e1e36d)
+![Gravando 2025-08-12 000210](https://github.com/user-attachments/assets/01804251-e63a-48fc-99c2-34fc67761902)
+<img width="800" height="336" alt="image" src="https://github.com/user-attachments/assets/8b07b477-2257-4ee3-a73c-1d2b1b63c04f" />
+![Gravando2025-08-12000402-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2d825c26-6177-47aa-a2d4-1f655024b04f)
+
 
 ### 📱 Mobile
 <img src="https://github.com/user-attachments/assets/2f1ab952-4361-4907-bee0-9b2035fbf2ab" width="300">
