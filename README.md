@@ -1,4 +1,4 @@
-![Gravando 2025-08-11 234717](https://github.com/user-attachments/assets/822f1b50-2e73-4b95-b7eb-46bb11d35344)# 🎁 Presente Virtual
+# 🎁 Presente Virtual
 
 > Um mini site interativo para surpreender alguém especial, com contagem regressiva, música, fotos e mensagens personalizadas.
 
@@ -23,10 +23,10 @@ O projeto é totalmente personalizável: você pode trocar as imagens, textos, c
 ![Gravando 2025-08-11 234717](https://github.com/user-attachments/assets/482d6f0e-0054-4d9c-911b-ecda24e1e36d)
 
 ### 📱 Mobile
-![Imagem do WhatsApp de 2025-08-11 à(s) 23 49 31_1b58f943](https://github.com/user-attachments/assets/2f1ab952-4361-4907-bee0-9b2035fbf2ab)
+<img src="https://github.com/user-attachments/assets/2f1ab952-4361-4907-bee0-9b2035fbf2ab" width="300">
 
 ### 🎥 Vídeo
-[Assista à demonstração](https://www.youtube.com/watch?v=xivQlDRPN4c&ab_channel=GabrielSchonfelder)
+[![Assista à demonstração no YouTube](https://img.youtube.com/vi/xivQlDRPN4c/maxresdefault.jpg)](https://www.youtube.com/watch?v=xivQlDRPN4c)
 
 ---
 
