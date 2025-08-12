@@ -1,4 +1,4 @@
-# 🎁 Presente Virtual
+![Gravando 2025-08-11 234717](https://github.com/user-attachments/assets/822f1b50-2e73-4b95-b7eb-46bb11d35344)# 🎁 Presente Virtual
 
 > Um mini site interativo para surpreender alguém especial, com contagem regressiva, música, fotos e mensagens personalizadas.
 
@@ -18,13 +18,15 @@ O projeto é totalmente personalizável: você pode trocar as imagens, textos, c
 ## 🖼️ Demonstração
 
 ### 💻 Desktop
-![Preview Desktop](caminho/para/imagem-desktop.png)
+<img width="1901" height="941" alt="Captura de tela 2025-08-11 233844" src="https://github.com/user-attachments/assets/d72e193e-d37e-4a73-8c73-3272b34d33a4" />
+
+![Gravando 2025-08-11 234717](https://github.com/user-attachments/assets/482d6f0e-0054-4d9c-911b-ecda24e1e36d)
 
 ### 📱 Mobile
-![Preview Mobile](caminho/para/imagem-mobile.png)
+![Imagem do WhatsApp de 2025-08-11 à(s) 23 49 31_1b58f943](https://github.com/user-attachments/assets/2f1ab952-4361-4907-bee0-9b2035fbf2ab)
 
 ### 🎥 Vídeo
-[Assista à demonstração](link-do-video)
+[Assista à demonstração](https://www.youtube.com/watch?v=xivQlDRPN4c&ab_channel=GabrielSchonfelder)
 
 ---
 
@@ -55,6 +57,7 @@ O projeto é totalmente personalizável: você pode trocar as imagens, textos, c
 1. **Clonar o repositório**
 ```bash
 git clone https://github.com/gaschonfelder/Presente.git
+```
 
 2. **Abrir o projeto**
 - Navegue até a pasta do projeto e abra o arquivo `index.html` no navegador.
@@ -66,6 +69,7 @@ git clone https://github.com/gaschonfelder/Presente.git
 - **Alterar cores e layout:** edite `/CSS/config.css`.
 
 ---
+
 
 ## 📱 Compatibilidade
 
