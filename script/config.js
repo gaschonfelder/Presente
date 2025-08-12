@@ -1,7 +1,7 @@
 // config/config.js
 export default {
 //Data para a contagem regressiva
-  countdownTarget: '11/08/2025 15:44:59', 
+  countdownTarget: '11/08/2025 22:14:00', 
 
   // textos principais
   

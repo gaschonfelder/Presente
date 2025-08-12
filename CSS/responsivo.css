@@ -1,35 +1,34 @@
-  /* --------------- Responsivo --------------- */
-  @media (max-width: 900px){
-    .polaroidText {
-      left: 80%;
-}
-  }
-  
-  @media (max-width: 800px){
-    .polaroid {
-    top: 30%;
-    left: 45%;
-  }
-    .polaroid img {
-    width: 110%;
-}
-  .polaroidText{
-    top: 60%;
+/* --------------- Responsivo --------------- */
+@media (max-width: 1400px) {
+  .polaroidText {
+    top: 20%;
     left: 50%;
+  }
+  .text{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+    .polaroidText {
+    top: 25%;
+
+  }
+  .text{
+    font-size: 1.75rem;
   }
 
   #mainContent h2 {
     font-size: 4rem;
-}
-  
+  }
+
   .time-box {
     display: flex;
     flex-direction: column;
   }
-  
+
   .time-box span {
     font-size: 2.75rem;
-  
   }
 
   .time-box small {
@@ -40,18 +39,60 @@
     top: 50%;
     left: 50%;
     font-size: 3rem;
-    
+  }
 }
-}
-  @media (max-width: 750px){
-  .polaroidText{
+
+@media (max-width: 700px) {
+  .polaroid img {
+    width: 120%;
+  }
+  .polaroid {
+    top: 30%;
+    left: 45%;
+  }
+  .polaroidText {
+    width: 90%;
     top: 55%;
-  }
-
+    left: 5%;
 }
-  @media (max-width: 650px){
-  .polaroidText{
-    top: 50%;
+  .text{
+    font-size: 1.5rem;
   }
+}
 
+@media (max-width: 500px) {
+  .polaroid img {
+    width: 130%;
+  }
+  .polaroid {
+    top: 25%;
+    left: 40%;
+  }
+  .polaroidText {
+    top: 45%;
+}
+  .text{
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 400px) {
+  .polaroid img {
+    width: 110%;
+  }
+  .polaroid {
+    left: 45%;
+  }
+  .text{
+    font-size: 1.25rem;
+  }
+    .time-box span {
+    font-size: 2rem;
+  }
+  #countdown {
+    padding: 10px 20px 20px 20px;
+}
+
+.btnInicial {
+    font-size: 3em;
+}
 }

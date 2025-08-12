@@ -1,10 +1,10 @@
 /* Ajustar aqui as posicoes das Fotos e frases */
 .polaroid {
   top: 50%;
-  left: 35%;                 /* centraliza de verdade */
+  left: 25%;                 /* centraliza de verdade */
 }
 
 .polaroidText {
-  top: 15%;
-  left: 70%;
+  top: 20%;
+  left: 45%;
 }
