@@ -1,0 +1,137 @@
+.time-box {
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.time-box:not(:last-child) {
+    border-right: solid;
+    padding: 0px 15px 0px 0px;
+}
+
+.time-box span {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.time-box small {
+    font-size: 2rem;
+    margin-top: 5px;
+    color: #555;
+}
+
+.btnInicial {
+    display: block;
+    margin: 30px auto;
+    padding: 30px 50px;
+    font-size: 4em;
+    background-color: #ff5e7e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1.5s ease;
+}
+
+.btnInicial:hover {
+    background-color: #e70734;
+    transform: scale(1.05);
+}
+
+#startBtn.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.polaroid {
+  position: fixed;
+  transform: translate(-50%, -50%) scale(0.9) rotate(var(--rotation, 0deg));
+  width: clamp(220px, 40vw, 480px); /* min, ideal (vw), max */
+  opacity: 0;
+  transition: opacity .8s ease, transform .8s ease;
+  z-index: 0;
+}
+
+.polaroid.visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(var(--rotation));
+}
+
+.polaroid img {
+    width: 100%;
+    border: 5px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+
+.polaroidText {
+  position: fixed;
+  max-width: clamp(240px, 35vw, 550px); /* adapta entre 240px e 550px */
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+
+.polaroidText p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    margin: 10px 0;
+}
+
+.polaroidText p.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.text.bold {
+    font-weight: 700
+}
+
+.textoFinal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    z-index: 999;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff5e7e, #ff9aa2);
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.textoFinal.visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(var(--rotation, 0deg));
+}
+
+.heart {
+    position: absolute;
+    color: #ff5e7e;
+    font-size: 1.5rem;
+    pointer-events: none;
+    animation: flyUp 1s ease-out forwards;
+        
+}

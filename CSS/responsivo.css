@@ -1,0 +1,57 @@
+  /* --------------- Responsivo --------------- */
+  @media (max-width: 900px){
+    .polaroidText {
+      left: 80%;
+}
+  }
+  
+  @media (max-width: 800px){
+    .polaroid {
+    top: 30%;
+    left: 45%;
+  }
+    .polaroid img {
+    width: 110%;
+}
+  .polaroidText{
+    top: 60%;
+    left: 50%;
+  }
+
+  #mainContent h2 {
+    font-size: 4rem;
+}
+  
+  .time-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .time-box span {
+    font-size: 2.75rem;
+  
+  }
+
+  .time-box small {
+    font-size: 1.75rem;
+  }
+
+  .textoFinal {
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    
+}
+}
+  @media (max-width: 750px){
+  .polaroidText{
+    top: 55%;
+  }
+
+}
+  @media (max-width: 650px){
+  .polaroidText{
+    top: 50%;
+  }
+
+}

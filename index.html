@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>❤️ Parabéns Amor ❤️</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Presente</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 
       
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <div class="container">
         <div class="start-section">
 
             <div id="countdown">
@@ -37,10 +36,10 @@
                 </div>
             </div>
 
-            <button id="startBtn">Vamos lá</button>
+            <button class="btnInicial" id="startBtn">Vamos lá</button>
 
             <div id="mainContent" style="display:none;">
-                <h2 id="typingText">Parabéns amor!</h2>
+                <h2 id="typingText"></h2>
             </div>
             
 
@@ -49,39 +48,41 @@
         <!-- Espaçadores para criar scroll -->
         <div id="scrollContainer" style="display: none;">
             <div class="scroll-section">
-                <div class="polaroid"><img src="img/foto3.png" alt="Foto 1" /></div>
+                <div class="polaroid"><img src="" alt="Foto 1" /></div>
             </div>
             <div class="scroll-section">
-                <div class="polaroid"><img src="img/foto2.png" alt="Foto 2" /></div>
+                <div class="polaroid"><img src="" alt="Foto 2" /></div>
             </div>
             <div class="scroll-section">
-                <div class="polaroid"><img src="img/foto4.png" alt="Foto 3" /></div>
+                <div class="polaroid"><img src="" alt="Foto 3" /></div>
             </div>
             <div class="scroll-section">
-                <div class="polaroid"><img src="img/Foto1.png" alt="Foto 3" /></div>
+                <div class="polaroid"><img src="" alt="Foto 3" /></div>
             </div>
             <div class="scroll-section">
-                <!-- cod novo -->
                 <div class="polaroidText">
-                    <p class="text bold">Às vezes uma foto diz mais do que mil palavras…</p>
-                    <p class="text bold">Então eu juntei as poucas que temos pra ver se ajuda.</p>
-                    <p class="text bold">Espero que esse presente te faça sorrir, como você me faz todos os dias.</p>
-                    <p class="text bold">Parabéns por mais um ano sendo maravilhosa… e por me aguentar também kkkkk.</p>
+                    <p class="text bold"></p>
+                    <p class="text bold"></p>
+                    <p class="text bold"></p>
+                    <p class="text bold"></p>
                 </div>
             </div>
             <div class="scroll-section final">
                 <div class="textoFinal">
-                    <h1>TE AMO VIDAAAAAAAA!</h1>
+                    <h1 id="finalText"></h1>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-    <audio id="musicaFundo" autoplay loop style="display: none">
-        <source src="musica.mp3" type="audio/mpeg">
-    </audio>
-    <script src="script.js"></script>
+
+    <!-- Usar o codigo abaixo caso queira usar musica no site caso nao queira apenas comentar -->
+      <audio id="musicaFundo" autoplay loop style="display: none">
+          <source src="musica.mp3" type="audio/mpeg">
+      </audio>
+      <!-- --------------------------------------------------------------------------------- -->
+    <script type="module" src="main.js" defer></script>
       
 </body>
 
